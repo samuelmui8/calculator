@@ -14,8 +14,8 @@ function divide(x, y) {
 	return x / y;
 }
 
-function operate(leftNum, rightNum, op) {
-	return op(leftNum, rightNum);
+function operate(leftOperand, rightOperand, operator) {
+	return operator(leftOperand, rightOperand);
 }
 
-let leftNum, rightNum, op;
+let leftOperand, rightOperand, operator;

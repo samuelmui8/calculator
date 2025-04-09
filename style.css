@@ -20,12 +20,13 @@ body {
 }
 
 .display {
+    box-sizing: border-box;
+    padding: 5px;
     width: 100%;
     display: flex;
     flex: 1;
     background-color: lightgray;
     font-size: 5.5em;
-    padding: 5px;
     justify-content: flex-end;
 }
 
@@ -47,4 +48,45 @@ body {
 button {
     flex: 1;
     font-size: large;
+    border-radius: 10px;
+}
+
+.operator {
+    background-color: #FF8F1F;    
+}
+
+.operator:focus {
+    background-color: #ffc183;
+}
+
+.equals {
+    background-color: #FF8F1F;
+}
+
+.equals:active {
+    background-color: #ffc183;
+}
+
+.operand {
+    background-color: #217C7E;
+}
+
+.operand:active {
+    background-color: #33b9bb;
+}
+
+.decimal {
+    background-color: #217C7E;
+}
+
+.decimal:active {
+    background-color: #33b9bb;
+}
+
+.clear, .backspace {
+    background-color: dodgerblue;
+}
+
+.clear:active {
+    background-color: rgb(123, 189, 255);
 }
